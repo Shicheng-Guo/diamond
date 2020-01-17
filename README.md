@@ -33,16 +33,6 @@ How to install diamond in Linux server:
 ```
 conda install -c bioconda diamond
 ```
-
-Installing the software on your system may be done by downloading it in
-binary format for immediate use:
-
-    wget http://github.com/bbuchfink/diamond/releases/download/v0.9.29/diamond-linux64.tar.gz
-    tar xzf diamond-linux64.tar.gz
-
-The extracted `diamond` binary file should be moved to a directory
-contained in your executable search path (PATH environment variable).
-
 To now run an alignment task, we assume to have a protein database file
 in FASTA format named `nr.faa` and a file of DNA reads that we want to
 align named `reads.fna`.
