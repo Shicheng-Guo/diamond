@@ -28,6 +28,12 @@ Please read the
 for detailed installation and usage instructions. This demonstrates a
 quick example for setting up and using the program on Linux.
 
+How to install diamond in Linux server:
+
+```
+conda install -c bioconda diamond
+```
+
 Installing the software on your system may be done by downloading it in
 binary format for immediate use:
 
