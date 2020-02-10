@@ -45,7 +45,7 @@ To now run an alignment task, we assume to have a protein database file
 in FASTA format named `nr.faa` and a file of DNA reads that we want to
 align named `reads.fna`.
 
-In order to set up a reference database for DIAMOND, the `makedb`
+In order to set up a reference database for DIAMOND, `nr.gz` very large about 70G and the `makedb`
 command needs to be executed with the following command line:
 
     $ wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nr.gz
