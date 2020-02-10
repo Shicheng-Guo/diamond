@@ -33,6 +33,13 @@ How to install diamond in Linux server:
 ```
 conda install -c bioconda diamond
 ```
+
+or 
+
+```
+wget http://github.com/bbuchfink/diamond/releases/download/v0.9.30/diamond-linux64.tar.gz
+tar xzf diamond-linux64.tar.gz
+```
 To now run an alignment task, we assume to have a protein database file
 in FASTA format named `nr.faa` and a file of DNA reads that we want to
 align named `reads.fna`.
