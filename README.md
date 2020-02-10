@@ -57,6 +57,8 @@ This will create a binary DIAMOND database file with the specified name
 command like this:
 
     $ diamond blastx -d nr -q reads.fna -o matches.m8
+or 
+    $ diamond blastx -d ~/hpc/db/nr -q $i.fastq -o ./diamond/$i
 
 The output file here is specified with the `–o` option and named
 `matches.m8`. By default, it is generated in BLAST tabular format.
