@@ -47,7 +47,9 @@ align named `reads.fna`.
 In order to set up a reference database for DIAMOND, the `makedb`
 command needs to be executed with the following command line:
 
-    $ diamond makedb --in nr.faa -d nr
+    $ wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nr.gz
+
+    $ diamond makedb --in nr.gz -d nr
 
 This will create a binary DIAMOND database file with the specified name
 (`nr.dmnd`). The alignment task may then be initiated using the `blastx`
