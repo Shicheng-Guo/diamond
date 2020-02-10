@@ -58,8 +58,6 @@ command like this:
 
     $ diamond blastx -d nr -q reads.fna -o matches.m8
 
-or 
-
     $ diamond blastx -d ~/hpc/db/nr -q $i.fastq -o ./diamond/$i
 
 The output file here is specified with the `–o` option and named
